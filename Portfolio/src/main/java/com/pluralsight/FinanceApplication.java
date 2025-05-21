@@ -10,7 +10,9 @@ public class FinanceApplication {
         Valuable account2 = new BankAccount("Gary", "456", 1500);
 
         double result = account1.deposit(100);
+        String defaultAnswer = account1.payment();
         System.out.println(result);
+        System.out.println(defaultAnswer);
 //        account2.deposit(100)
     }
 }
